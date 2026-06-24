@@ -96,9 +96,39 @@ content:
         description: >
           Investigated how the cardiac protein ACTN2 and calmodulin compete to bind the coactivator NRIP via its IQ domain, using in vitro pull-down and in vivo immunoprecipitation assays to explore their calcium-dependent interactions and functional implications.
 
+  - title: Cover Letter
+    layout: text
+    content: |
+      Dear Hiring Manager,
+
+      I am writing to express my strong interest in the Scientist – Neurobiology & High-Throughput Assay Development position. With my extensive background in bioengineering and cell biology, I am highly confident in my ability to contribute immediately to your high-throughput 3D neuronal assay development and translational research programs.
+
+      My core research experiences demonstrate my ability to independently design, optimize, and execute advanced 3D cellular models:
+
+      * **At National Taiwan University (Department of Biomedical Engineering):** I isolated primary neuron cells from mouse hippocampi and encapsulated them within 3D hydrogel structures. To overcome diffusion barriers, I successfully optimized staining protocols to achieve deep dye penetration within the gel matrix, allowing me to utilize R to precisely quantify and calculate neurite growth dynamics, lengths, and density. Additionally, I built and utilized micro-bioreactors along with patterned collagen gels (wave and linear shapes) to culturing HEK293T cells, successfully promoting and observing alignment and cellular dynamic states under physical loads.
+      * **At Chang Gung Memorial Hospital (Tissue Engineering Center):** I designed and optimized biomimetic 3D microenvironments using hydrogels to culture primary cells. By fine-tuning these culture conditions, I successfully enhanced cell viability and evaluated tissue morphology and gene expression profiles, discovering the optimal scaffolding parameters required to advance translational breast reconstruction workflows.
+
+      In addition to my 3D culture expertise, I bring over 3 years of hands-on experience working in rigorous, compliant GLP/GMP-regulated and academic laboratories. Throughout my career, I have consistently utilized strict aseptic techniques and maintained meticulous experimental documentation. I am fully proficient in executing core functional assays, including ELISA, flow cytometry (FACS), Western blotting, and RT-PCR. Combining this robust wet-lab foundation with my current MSc in Bioinformatics, I am uniquely equipped to seamlessly handle high-throughput workflows and interpret complex laboratory datasets in your fast-paced startup environment.
+
+      Thank you for your time and consideration. I look forward to the possibility of discussing how my advanced in vitro modeling and analytical skills can drive your upcoming projects forward.
+
+      Sincerely,
+      
+      Ching-Yi (Jacklyn) Peng
+
+  - title: Referees
+    layout: text
+    content: |
+      * **Bernie Pope**
+        Professor | Melbourne Bioinformatics | The University of Melbourne
+        Email: bjpope@unimelb.edu.au
+
+      * **Rowland Mosbergen**
+        Strategic Engagement and Planning Manager | Research Computing Platform | WEHI (Walter and Eliza Hall Institute of Medical Research)
+        Email: mosbergen.r@wehi.edu.au
+
 # Footer
-footer_show_references: true
-references_title: References available upon request
+footer_show_references: false
 
 # Build settings
 remote_theme: sproogen/modern-resume-theme
