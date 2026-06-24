@@ -16,7 +16,7 @@ darkmode: never
 
 # Social links
 github_username: Jaaaacklyn
-linkedin_username: www.linkedin.com/in/ching-yi-p-b37a54136
+linkedin_username: ching-yi-p-b37a54136
 
 # About Section
 about_title: Professional Summary
@@ -50,38 +50,38 @@ content:
         sub_title: Research Trainee
         caption: Jun 2025 - Jul 2025
         description: |
-          * **Implemented deconvolution and single-cell modelling pipelines for large-scale datasets.
-          * **Used advanced computational and statistical methods to quantify variability in heterogeneous systems.
-          * **Strengthened high-dimensional data analysis skills.
+          * Implemented deconvolution and single-cell modelling pipelines for large-scale datasets.
+          * Used advanced computational and statistical methods to quantify variability in heterogeneous systems.
+          * Strengthened high-dimensional data analysis skills.
 
       - layout: top
         title: WEHI (Walter and Eliza Hall Institute of Medical Research)
         sub_title: Research Data Engineer-Intern
         caption: Nov 2024 - Mar 2025
         description: |
-          * **Designed and optimised data pipelines for high-dimensional, large-scale sequencing datasets.
-          * **Trained researchers in statistical programming.
-          * **Collaborated across disciplines to build customised, data-driven analysis workflows.
+          * Designed and optimised data pipelines for high-dimensional, large-scale sequencing datasets.
+          * Trained researchers in statistical programming.
+          * Collaborated across disciplines to build customised, data-driven analysis workflows.
 
       - layout: top
         title: NTU - Department of Biomedical Engineering
         sub_title: Research Assistant
         caption: Dec 2019 - Mar 2021
         description: |
-          * **Designed and optimised biomimetic 3D neuron cell culture experiments using strict aseptic technique and careful sample handling.
-          * **Analysed microscopy and viability data in R and ImageJ to adjust experimental conditions and improve cell viability.
-          * **Trained and mentored junior staff in laboratory techniques, experimental workflows and good documentation practices.
+          * Designed and optimised biomimetic 3D neuron cell culture experiments using strict aseptic technique and careful sample handling.
+          * Analysed microscopy and viability data in R and ImageJ to adjust experimental conditions and improve cell viability.
+          * Trained and mentored junior staff in laboratory techniques, experimental workflows and good documentation practices.
 
       - layout: top
         title: UBI Pharma Inc.
         sub_title: Research Associate
         caption: May 2018 - Jul 2019
         description: |
-          * **Conducted pre-clinical research on a novel drug candidate, designing and executing 8+ experiments.
-          * **Implemented and managed instrument verification protocols in compliance with GLP/GMP regulations, ensuring 100% calibration accuracy and regulatory adherence.
-          * **Constructed and delivered SOP training programs, increasing team adherence to regulatory requirements by 80% and reducing procedural errors.
-          * **Researched and integrated FDA, EMA, and TFDA immunogenicity regulations into analytical workflows, ensuring 100% compliance during regulatory audits.
-          * **Performed validation studies on an RT-PCR diagnostic kit, revamping assay conditions and confirming 90% accuracy in detecting target sequences.
+          * Conducted pre-clinical research on a novel drug candidate, designing and executing 8+ experiments.
+          * Implemented and managed instrument verification protocols in compliance with GLP/GMP regulations, ensuring 100% calibration accuracy and regulatory adherence.
+          * Constructed and delivered SOP training programs, increasing team adherence to regulatory requirements by 80% and reducing procedural errors.
+          * Researched and integrated FDA, EMA, and TFDA immunogenicity regulations into analytical workflows, ensuring 100% compliance during regulatory audits.
+          * Performed validation studies on an RT-PCR diagnostic kit, revamping assay conditions and confirming 90% accuracy in detecting target sequences.
 
   - title: Education
     layout: list
