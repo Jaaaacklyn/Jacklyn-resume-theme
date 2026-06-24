@@ -1,140 +1,144 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: Jaaaacklyn/resume
 
-# Content configuration version
+# Data type version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+name: Ching-Yi (Jacklyn) Peng
+title: Scientist / Bioinformatician
+email: pengchingyi@gmail.com
+email_title: Email
+website: Jaaaacklyn.github.io/resume
+website_title: Web
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
-
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+github_username: Jaaaacklyn
+linkedin_username: Ching-Yi Peng
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+about_title: Professional Summary
+about_content: >
+  Scientist with 5+ years of GLP/GMP and academic experience specializing in the design and optimization of biomimetic 3D neuron cell cultures. Combining an MSc in Bioinformatics with R programming skills to analyze complex datasets.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  **Visa Status:** Graduate Visa 485 (expires in April 2028)
+
+  **Awards & Scholarships:**
+  - Mentor: In2Science in Semester 1, 2025 (Mentor Award Nominee)
+  - Student Housing Bursary
+  - Muriel Ramm Science Bursary 2025
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+  - title: Key Skills
+    layout: text
+    content: |
+      * **Wet-lab techniques:** Animal dissection and in vivo experiments, viral culture and anti-viral titer assays, bacterial culture, cell culture, ELISA, immunofluorescence staining, flow cytometric.
+      * **Molecular biology:** DNA/RNA extraction, PCR, qPCR, gel electrophoresis, Western blot, immunoprecipitation, basic assay validation, and iPSCs.
+      * **Aseptic technique:** Sterile handling of samples and reagents, prevention of cross-contamination in molecular workflows.
+      * **Regulated lab experience:** Work in GLP/GMP laboratory settings, instrument verification, SOP adherence and training.
+      * **Data and documentation:** Precise experimental record-keeping, tracking samples and QC metrics, basic analysis in R/Python.
+      * **Professional skills:** Detail-oriented, reliable with scheduled shifts, strong teamwork and communication in fast-paced lab environments.
+
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+      - layout: top
+        border: weak
+        title: MD Anderson Cancer Center
+        sub_title: Research Trainee
+        caption: Jun 2025 - Jul 2025
+        description: >
+          Implemented deconvolution and single-cell modelling pipelines for large-scale datasets, using advanced computational and statistical methods to quantify variability in heterogeneous systems and strengthen high-dimensional data analysis skills.
+
+      - layout: top
+        title: WEHI (Walter and Eliza Hall Institute of Medical Research)
+        sub_title: Research Data Engineer-Intern
+        caption: Nov 2024 - Mar 2025
+        description: >
+          Designed and optimised data pipelines for high-dimensional, large-scale sequencing datasets, while training researchers in statistical programming and collaborating across disciplines to build customised, data-driven analysis workflows.
+
+      - layout: top
+        title: NTU - Department of Biomedical Engineering
+        sub_title: Research Assistant
+        caption: Dec 2019 - Mar 2021
+        description: >
+          Designed and optimised biomimetic 3D neuron cell culture experiments using strict aseptic technique and careful sample handling. Analysed microscopy and viability data in R and ImageJ to adjust experimental conditions and improve cell viability. Trained and mentored junior staff in laboratory techniques, experimental workflows and good documentation practices.
+
+      - layout: top
+        title: UBI Pharma Inc.
+        sub_title: Research Associate
+        caption: May 2018 - Jul 2019
+        description: >
+          Conducted pre-clinical research on a novel drug candidate, designing and executing 8+ experiments. Implemented and managed instrument verification protocols in compliance with GLP/GMP regulations, ensuring 100% calibration accuracy and regulatory adherence. Constructed and delivered SOP training programs, increasing team adherence to regulatory requirements by 80% and reducing procedural errors. Researched and integrated FDA, EMA, and TFDA immunogenicity regulations into analytical workflows, ensuring 100% compliance during regulatory audits. Performed validation studies on an RT-PCR diagnostic kit, revamping assay conditions and confirming 90% accuracy in detecting target sequences.
+
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+      - layout: top
+        border: weak
+        title: The University of Melbourne
+        sub_title: Master of Science in Bioinformatics
+        caption: Feb 2024 - Dec 2025
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          Research Project: Quantifying the Differences Between Poly-A Selection and Ribo-Depletion in RNA-Seq
+        description: >
+          Master's research project on RNA-seq, using HPC and reproducible pipelines to process large-scale sequencing data, perform differential expression and splicing analyses, and optimize workflows for robust genomic applications.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - layout: top
+        title: National Taiwan University
+        sub_title: Master of Science in Microbiology and Immunology
+        caption: Sep 2015 - Jan 2018
+        quote: >
+          Research Project: Research for competitive relationship between ACTN2 and calmodulin to bind NRIP
+        description: >
+          Investigated how the cardiac protein ACTN2 and calmodulin compete to bind the coactivator NRIP via its IQ domain, using in vitro pull-down and in vivo immunoprecipitation assays to explore their calcium-dependent interactions and functional implications.
+
+  - title: Cover Letter
+    layout: text
+    content: |
+      Dear Hiring Manager,
+
+      I am writing to express my strong interest in the Scientist – Neurobiology & High-Throughput Assay Development position. With my extensive background in bioengineering and cell biology, I am highly confident in my ability to contribute immediately to your high-throughput 3D neuronal assay development and translational research programs.
+
+      My core research experiences demonstrate my ability to independently design, optimize, and execute advanced 3D cellular models:
+
+      * **At National Taiwan University (Department of Biomedical Engineering):** I isolated primary neuron cells from mouse hippocampi and encapsulated them within 3D hydrogel structures. To overcome diffusion barriers, I successfully optimized staining protocols to achieve deep dye penetration within the gel matrix, allowing me to utilize R to precisely quantify and calculate neurite growth dynamics, lengths, and density. Additionally, I built and utilized micro-bioreactors along with patterned collagen gels (wave and linear shapes) to culturing HEK293T cells, successfully promoting and observing alignment and cellular dynamic states under physical loads.
+      * **At Chang Gung Memorial Hospital (Tissue Engineering Center):** I designed and optimized biomimetic 3D microenvironments using hydrogels to culture primary cells. By fine-tuning these culture conditions, I successfully enhanced cell viability and evaluated tissue morphology and gene expression profiles, discovering the optimal scaffolding parameters required to advance translational breast reconstruction workflows.
+
+      In addition to my 3D culture expertise, I bring over 3 years of hands-on experience working in rigorous, compliant GLP/GMP-regulated and academic laboratories. Throughout my career, I have consistently utilized strict aseptic techniques and maintained meticulous experimental documentation. I am fully proficient in executing core functional assays, including ELISA, flow cytometry (FACS), Western blotting, and RT-PCR. Combining this robust wet-lab foundation with my current MSc in Bioinformatics, I am uniquely equipped to seamlessly handle high-throughput workflows and interpret complex laboratory datasets in your fast-paced startup environment.
+
+      Thank you for your time and consideration. I look forward to the possibility of discussing how my advanced in vitro modeling and analytical skills can drive your upcoming projects forward.
+
+      Sincerely,
+      
+      Ching-Yi (Jacklyn) Peng
+
+  - title: Referees
+    layout: text
+    content: |
+      * **Bernie Pope**
+        Professor | Melbourne Bioinformatics | The University of Melbourne
+        Email: bjpope@unimelb.edu.au
+
+      * **Rowland Mosbergen**
+        Strategic Engagement and Planning Manager | Research Computing Platform | WEHI (Walter and Eliza Hall Institute of Medical Research)
+        Email: mosbergen.r@wehi.edu.au
 
 # Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+footer_show_references: false
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme
+
+exclude:
+  - vendor
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+  - jekyll-seo-tag
