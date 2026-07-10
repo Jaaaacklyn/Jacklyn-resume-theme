@@ -19,11 +19,11 @@ linkedin_username: ching-yi-p-b37a54136
 
 # About Section
 about_title: Professional Summary
-about_content: >
-  Biology and bioinformatics engineer with 5+ years of wet-lab and computational experience in RNA-seq pipelines, genomic workflows, and clinical data analysis. Proficient in Python, R, Linux, and SQL.Biology and bioinformatics engineer with 5+ years of wet-lab and computational experience in RNA-seq pipelines, genomic workflows, and clinical data analysis. Proficient in Python, R, Linux, and SQL.
-  **Visa Status:** Graduate Visa 485 (expires in April 2028)
+about_content: |
+  Biology and bioinformatics engineer with 5+ years of wet-lab and computational experience in RNA-seq pipelines, genomic workflows, and clinical data analysis. Proficient in Python, R, Linux, and SQL.
+  * **Visa Status:** Graduate Visa 485 (expires in April 2028)
 
-  **Awards & Scholarships:**
+  * **Awards & Scholarships:**
   - Mentor: In2Science in Semester 1, 2025 (Mentor Award Nominee)
   - Student Housing Bursary
   - Muriel Ramm Science Bursary 2025
@@ -32,10 +32,10 @@ content:
   - title: Key Skills
     layout: text
     content: |
-      * **Programming: Python (NumPy/Pandas), R, and SQL queries (NoSQL adaptable).
-      * **Platforms: Linux/Unix, HPC clusters, Nextflow pipelines.
-      * **Analysis: RNA-seq/single-cell (DESeq2/Seurat), workflows, statistical modeling.
-      * **Domains: Biomedical/pre-clinical research, microbiology/immunology.
+      * Programming: Python (NumPy/Pandas), R, and SQL queries (NoSQL adaptable).
+      * Platforms: Linux/Unix, HPC clusters, Nextflow pipelines.
+      * Analysis: RNA-seq/single-cell (DESeq2/Seurat), workflows, statistical modeling.
+      * Domains: Biomedical/pre-clinical research, microbiology/immunology.
 
   - title: Experience
     layout: list
@@ -78,7 +78,7 @@ content:
         caption: Feb 2024 - Dec 2025
         quote: >
           Research Project: Quantifying the Differences Between Poly-A Selection and Ribo-Depletion in RNA-Seq
-        description: >
+        description: |
           *	Developed and optimized end-to-end Nextflow pipelines (nf-core/rnaseq) using Singularity containers to ensure environment portability and 100% analysis reproducibility.
           *	Managed large-scale genomic data on Spartan HPC by leveraging Slurm job scheduling; implemented asynchronous execution strategies to ensure continuous pipeline processing during local system downtimes.
           *	Engineered efficient resource allocation by profiling FastQ file sizes to predict optimal CPU/RAM requirements, significantly reducing memory-related failures (OOM) and cluster wait times.
