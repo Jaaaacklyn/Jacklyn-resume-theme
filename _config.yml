@@ -41,7 +41,6 @@ content:
     layout: list
     content:
       - layout: top
-        border: weak
         title: MD Anderson Cancer Center
         sub_title: Research Trainee
         caption: Jun 2025 - Jul 2025
@@ -93,25 +92,6 @@ content:
           Research Project: Research for competitive relationship between ACTN2 and calmodulin to bind NRIP
         description: >
           Investigated how the cardiac protein ACTN2 and calmodulin compete to bind the coactivator NRIP via its IQ domain, using in vitro pull-down and in vivo immunoprecipitation assays to explore their calcium-dependent interactions and functional implications.
-
-  - title: Cover Letter
-    layout: text
-    content: |
-      Dear Hiring Manager,
-
-      I am writing to express my strong interest in the Bioinformatician position within the Animal and Plant Research & Diagnosis team at DPIRD. With a Master of Science in Bioinformatics from The University of Melbourne, over four years of industrial wet-lab experience, I am exceptionally positioned to bridge the gap between biological insights to safeguard NSW’s primary industries.
-     
-      My academic journey began with a deep focus on agricultural sustainability and plant science. During my university research project, I investigated the heat-tolerance mechanisms of Arabidopsis, specifically focusing on heat shock proteins (HSPs) to identify key resilience genes. The ultimate objective was to engineer climate-resilient crop traits by translating these genetic targets into rice cultivars to enhance crop yields in tropical regions.
-      
-      In addition to my plant research background, I bring over four years of rigorous wet-lab experience, including serving as a Research Associate at UBI Pharma Inc., an established pharmaceutical company operating under strict international regulatory standards. Throughout my career, I have executed advanced molecular diagnostics, performed extensive validation studies on RT-PCR/qPCR kits, and designed SOP training programs that boosted regulatory compliance by 80%. Having transitioned into bioinformatics through my Master’s degree, I possess a unique dual-perspective. I deeply understand the nuances of clinical and academic applications, enabling me to serve as an effective collaborative bridge between bench scientists and computational pipelines.
-
-      On the dry-lab front, I am highly proficient in managing large-scale genomic data on HPC clusters and building automated data workflows. For my MSc research, I designed and optimized end-to- end Nextflow pipelines using Singularity containers to guarantee 100% environment portability and analysis reproducibility. I also successfully managed complex data allocation and reduced cluster wait times through proactive system resource profiling. Coupled with my experience handling high-dimensional single-cell and RNA-seq datasets using R and Python at institutions like WEHI and the MD Anderson Cancer Center, I am fully prepared to develop and maintain the high-throughput sequencing pipelines required for rapid emergency disease and biosecurity incursion responses.
-
-      I am highly motivated to contribute to the cutting-edge diagnostic and biosecurity advancements at DPIRD. Thank you for your time and consideration, and I look forward to the opportunity to discuss how my cross-disciplinary expertise can support your team.
-      
-      Sincerely,
-      
-      Ching-Yi (Jacklyn) Peng
 
   - title: Referees
     layout: text
